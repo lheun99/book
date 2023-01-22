@@ -27,10 +27,10 @@
 
 - NoSQL의 종류
 
-  - document DB_MongoDB
+  - document DB\_ MongoDB
     1. 데이터를 JSON형태로 저장한다
     2. 개발자가 원하는 어떠한 모양이나 종류의 데이터라고 저장이 가능하다
-  - key-value DB_Cassndra DB, Dynamo DB
+  - key-value DB\_ Cassndra DB, Dynamo DB
     1. 열이 넓다는 특징을 갖고 있다
     2. 읽고 쓰는 속도가 매우 빨라 애플의 경우 10PB의 데이터를 저장한다
        (넷플릭스, 인스타그램, 우버 등)
