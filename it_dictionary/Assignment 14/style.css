@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,900;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Noto Sans KR','Montserrat';
+  margin: 15px;
+}
+
+.poster {
+  width: 720px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+header {
+  font-family: 'Montserrat';
+  display: flex;
+  flex-direction:column;
+  padding: 30px;
+}
+
+header > span {
+  font-size : 32px;
+  font-weight: 900;
+  line-height: 0.6;
+}
+
+header span:first-child {
+    color: #b3b3b3;
+}
+.tips__upper, .tips__lower  {
+  display:flex;
+  justify-content:space-between;
+  padding: 0 30px 0px 30px;
+}
+  
+.img__bookcover {
+  margin : 30px;
+  width:25%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.tips {
+  width: 80%;
+  display: flex;
+  flex-direction:column;
+  font-weight: 400;
+}
+
+span {
+  margin: 5px;
+  font-size : 16px;
+  line-height: 1.8;
+}
+
+.logo {
+  display:flex;
+  justify-content:flex-end;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+.logo img {
+  width: 85px;
+}
